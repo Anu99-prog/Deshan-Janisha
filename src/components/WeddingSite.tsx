@@ -298,10 +298,18 @@ const WeddingSite = () => {
         </div>
         
         <h2 className="font-script text-4xl sm:text-5xl md:text-6xl mb-3 md:mb-4">Venue</h2>
-        <p className="font-sans tracking-wide sm:tracking-widest uppercase text-xs sm:text-sm mb-8 md:mb-12">Water's Edge</p>
+        <p className="font-sans tracking-wide sm:tracking-widest uppercase text-xs sm:text-sm mb-4 md:mb-6">Water's Edge</p>
+        <a 
+          href="https://maps.app.goo.gl/StN57KCnhNa8pRHb8" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block font-sans text-sm opacity-70 hover:opacity-100 transition-opacity mb-8 md:mb-12 underline"
+        >
+          View on Google Maps
+        </a>
         <div className="max-w-4xl mx-auto h-[300px] sm:h-[400px] bg-background p-2 rounded-sm shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07)]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.942!2d79.904!3d6.897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bb59e9d5c0b%3A0x9c72e2717b52e880!2sWater&#39;s%20Edge!5e0!3m2!1sen!2slk!4v1715800000000"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15843.77010648221!2d79.89505827213542!3d6.897080645932987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bb59e9d5c0b%3A0x9c72e2717b52e880!2sWater&#39;s%20Edge!5e0!3m2!1sen!2slk!4v1710672000000!5m2!1sen!2slk"
             className="w-full h-full grayscale contrast-[1.1]"
             style={{ border: 0 }}
             allowFullScreen
