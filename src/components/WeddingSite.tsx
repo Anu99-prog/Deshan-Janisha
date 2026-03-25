@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import Countdown from './Countdown';
-import coupleImage001 from '@/assets/001.jpg';
+import coupleImage001 from '@/assets/001.jpeg';
 import coupleImage002 from '@/assets/002.jpg';
 import coupleImage003 from '@/assets/003.jpg';
 import dressCodeImage from '@/assets/004.jpg';
-import wed1Background from '@/assets/wed-1.png';
+import wed1Background from '@/assets/wed-1.jpeg';
 
 const GOOGLE_FORM_ACTION =
   'https://docs.google.com/forms/d/e/1FAIpQLSfotCDXlivPrBYF2bSYofLSanvm0koi-8qXvEsEBaC1nTVItA/formResponse';
@@ -89,13 +89,16 @@ const WeddingSite = () => {
           <div className="space-y-4 sm:space-y-6 md:space-y-8 order-2 md:order-1">
             <h2 className="font-script text-4xl sm:text-5xl md:text-6xl">Our Story</h2>
             <p className="font-sans text-base sm:text-lg leading-relaxed opacity-80">
-              Our story began in September 2020, when we met at a mutual friend's birthday party.
+              Our story began in 2013, in an A/L classroom, where we were introduced by a close friend.
             </p>
             <p className="font-sans text-base sm:text-lg leading-relaxed opacity-80 italic">
-              It was love at first sight!
+              It was love at first sight.
             </p>
             <p className="font-sans text-base sm:text-lg leading-relaxed opacity-80">
-              We spent the whole evening talking, and from that night on, we've never been apart...
+              What started as a simple conversation grew into a deep friendship, with a quiet crush along the way. Life took us in different directions at times, but somehow we always found our way back to each other…
+            </p>
+            <p className="font-sans text-base sm:text-lg leading-relaxed opacity-80">
+              In 2018, we finally chose each other, and since then, we've been inseparable.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-3 md:gap-4 order-1 md:order-2">
