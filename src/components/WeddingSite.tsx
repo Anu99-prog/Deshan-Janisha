@@ -42,12 +42,26 @@ const WeddingSite = () => {
           />
         </div>
         <div className="absolute inset-0 flex flex-col items-center justify-center px-6 md:px-8 z-10">
-          <h1 className="font-script text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-3 md:mb-5 text-[#2c2c2c] drop-shadow-[0_2px_10px_rgba(255,255,255,0.9)]">
-            Deshan & Janisha
+          <h1 className="font-couple text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-3 md:mb-5 text-[#2c2c2c] drop-shadow-[0_2px_10px_rgba(255,255,255,0.9)]">
+            Janisha & Deshan
           </h1>
-          <p className="font-sans tracking-[0.3em] sm:tracking-[0.35em] md:tracking-[0.4em] text-xs sm:text-sm md:text-base lg:text-lg uppercase opacity-80 text-[#2c2c2c] drop-shadow-[0_2px_8px_rgba(255,255,255,0.8)] font-light">
+          <p className="font-date tracking-[0.3em] sm:tracking-[0.35em] md:tracking-[0.4em] text-xs sm:text-sm md:text-base lg:text-lg uppercase opacity-80 text-[#2c2c2c] drop-shadow-[0_2px_8px_rgba(255,255,255,0.8)] font-light">
             25.06.2026
           </p>
+          <div className="mt-6 md:mt-8 space-y-2 text-center">
+            <p className="font-sans text-[10px] sm:text-xs md:text-sm opacity-70 text-[#2c2c2c] tracking-wide">
+              With love and blessings of their parents
+            </p>
+            <p className="font-sans text-[9px] sm:text-[11px] md:text-xs opacity-60 text-[#2c2c2c]">
+              Mr. Lalith & Mrs. Shiranshi Gamage
+            </p>
+            <p className="font-sans text-[9px] sm:text-[11px] md:text-xs opacity-60 text-[#2c2c2c]">
+              And
+            </p>
+            <p className="font-sans text-[9px] sm:text-[11px] md:text-xs opacity-60 text-[#2c2c2c]">
+              Mr. Ranil & Mrs. Champika Ranatunge
+            </p>
+          </div>
         </div>
       </section>
 
@@ -68,8 +82,8 @@ const WeddingSite = () => {
           <div className="space-y-3 md:space-y-4 font-sans tracking-wide sm:tracking-widest text-xs sm:text-sm leading-loose text-[#2c2c2c] px-4">
             <p className="uppercase">We are glad to invite you to our</p>
             <p className="uppercase">wedding on</p>
-            <p className="text-xl sm:text-2xl md:text-3xl font-script normal-case tracking-normal">June 25th, 2026</p>
-            <p className="pt-2 md:pt-4 text-lg sm:text-xl md:text-2xl font-script normal-case tracking-normal">Deshan & Janisha</p>
+            <p className="text-xl sm:text-2xl md:text-3xl font-date normal-case tracking-normal">June 25th, 2026</p>
+            <p className="pt-2 md:pt-4 text-lg sm:text-xl md:text-2xl font-couple normal-case tracking-normal">Janisha & Deshan</p>
           </div>
         </div>
       </section>
@@ -89,7 +103,7 @@ const WeddingSite = () => {
           <div className="space-y-4 sm:space-y-6 md:space-y-8 order-2 md:order-1">
             <h2 className="font-script text-4xl sm:text-5xl md:text-6xl">Our Story</h2>
             <p className="font-sans text-base sm:text-lg leading-relaxed opacity-80">
-              Our story began in 2013, in an A/L classroom, where we were introduced by a close friend.
+              Our story began in 2014, when we were introduced by a close friend.
             </p>
             <p className="font-sans text-base sm:text-lg leading-relaxed opacity-80 italic">
               It was love at first sight.
@@ -104,7 +118,7 @@ const WeddingSite = () => {
           <div className="grid grid-cols-2 gap-3 md:gap-4 order-1 md:order-2">
             <img 
               src={coupleImage002} 
-              alt="Deshan & Janisha" 
+              alt="Janisha & Deshan" 
               className="w-full aspect-[3/4] object-cover shadow-[0_4px_20px_-3px_rgba(0,0,0,0.15)]" 
               style={{
                 clipPath: 'polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%)'
@@ -112,7 +126,7 @@ const WeddingSite = () => {
             />
             <img 
               src={coupleImage003} 
-              alt="Deshan & Janisha" 
+              alt="Janisha & Deshan" 
               className="w-full aspect-[3/4] object-cover shadow-[0_4px_20px_-3px_rgba(0,0,0,0.15)] mt-8 md:mt-12" 
               style={{
                 clipPath: 'polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%)'
@@ -134,20 +148,20 @@ const WeddingSite = () => {
         </div>
         
         <div className="w-full max-w-3xl mx-auto">
-          <h2 className="font-script text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-12 md:mb-16">The Schedule</h2>
+          <h2 className="font-script text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-12 md:mb-16">Event Details</h2>
           
           {/* Framed schedule container */}
           <div className="border-2 border-foreground/15 rounded-sm bg-white/40 backdrop-blur-sm p-8 sm:p-10 md:p-14 lg:p-16 shadow-[0_4px_25px_rgba(0,0,0,0.1)] relative z-10">
             <div className="space-y-8 md:space-y-10 lg:space-y-12">
               {[
-                { time: '9.40 AM', event: 'Poruwa Ceremony', desc: 'Traditional Sinhalese wedding ceremony' },
+                { time: '9.30 AM', event: 'Poruwa Ceremony', desc: 'Traditional Sinhalese wedding ceremony' },
                 { time: '10.45 AM', event: 'Cocktail Time', desc: 'Enjoy refreshments with friends and family' },
                 { time: '12.30 PM', event: 'Lunch Time', desc: 'Delicious feast awaits you' },
                 { time: '2.30 PM', event: 'Party Time', desc: 'Dance the day away!' },
-                { time: '04.05 PM', event: 'Going Away', desc: 'Farewell send-off' },
+                { time: '03.30 PM', event: 'Going Away', desc: 'Farewell send-off' },
               ].map((item, i, arr) => (
                 <div key={i} className="group">
-                  <p className="font-sans text-xs sm:text-sm md:text-base tracking-[0.2em] sm:tracking-[0.25em] uppercase opacity-60 mb-2">{item.time}</p>
+                  <p className="font-date text-xs sm:text-sm md:text-base tracking-[0.2em] sm:tracking-[0.25em] uppercase opacity-60 mb-2">{item.time}</p>
                   <p className="font-script text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-2">{item.event}</p>
                   <p className="font-sans text-xs sm:text-sm md:text-base opacity-50 italic">{item.desc}</p>
                   {i < arr.length - 1 && <div className="w-16 md:w-20 h-[1px] bg-foreground/10 mx-auto mt-6 md:mt-8" />}
@@ -173,10 +187,10 @@ const WeddingSite = () => {
         
         <h2 className="font-script text-4xl sm:text-5xl md:text-6xl mb-8 md:mb-12 relative z-10">Day is coming!</h2>
         <div className="relative z-10">
-          <Countdown targetDate="2026-06-25T09:40:00" />
+          <Countdown targetDate="2026-06-25T09:30:00" />
         </div>
         <div className="mt-12 md:mt-16 max-w-3xl mx-auto relative z-10">
-          <img src={coupleImage001} alt="Deshan & Janisha" className="w-full rounded-sm grayscale-[20%]" />
+          <img src={coupleImage001} alt="Janisha & Deshan" className="w-full rounded-sm grayscale-[20%]" />
         </div>
       </section>
 
@@ -251,6 +265,13 @@ const WeddingSite = () => {
                     placeholder="EMAIL ADDRESS"
                     className="w-full bg-transparent border-b border-foreground/10 py-3 md:py-4 focus:border-foreground outline-none transition-colors font-sans text-xs sm:text-sm tracking-wide sm:tracking-widest uppercase placeholder:text-foreground/30"
                     required
+                  />
+                  <input
+                    name="entry.1804086992"
+                    type="number"
+                    min="1"
+                    placeholder="NUMBER OF GUESTS ATTENDING"
+                    className="w-full bg-transparent border-b border-foreground/10 py-3 md:py-4 focus:border-foreground outline-none transition-colors font-sans text-xs sm:text-sm tracking-wide sm:tracking-widest uppercase placeholder:text-foreground/30"
                   />
                   <textarea
                     name="entry.1329663024"
@@ -340,7 +361,29 @@ const WeddingSite = () => {
             Feel free to reach out to us
           </p>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 max-w-xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 max-w-2xl mx-auto">
+            <div className="border border-foreground/10 rounded-sm bg-white/30 backdrop-blur-sm p-6 md:p-8 shadow-[0_2px_15px_rgba(0,0,0,0.05)]">
+              <h3 className="font-script text-2xl sm:text-3xl md:text-4xl mb-3 md:mb-4">Ranil</h3>
+              <p className="font-sans text-xs opacity-50 mb-2">Groom's Father</p>
+              <a 
+                href="tel:+94765472100" 
+                className="font-sans text-sm sm:text-base opacity-70 hover:opacity-100 transition-opacity block"
+              >
+                +94 76 547 2100
+              </a>
+            </div>
+            
+            <div className="border border-foreground/10 rounded-sm bg-white/30 backdrop-blur-sm p-6 md:p-8 shadow-[0_2px_15px_rgba(0,0,0,0.05)]">
+              <h3 className="font-script text-2xl sm:text-3xl md:text-4xl mb-3 md:mb-4">Shiranshi</h3>
+              <p className="font-sans text-xs opacity-50 mb-2">Bride's Mother</p>
+              <a 
+                href="tel:+94776272000" 
+                className="font-sans text-sm sm:text-base opacity-70 hover:opacity-100 transition-opacity block"
+              >
+                +94 77 627 2000
+              </a>
+            </div>
+            
             <div className="border border-foreground/10 rounded-sm bg-white/30 backdrop-blur-sm p-6 md:p-8 shadow-[0_2px_15px_rgba(0,0,0,0.05)]">
               <h3 className="font-script text-2xl sm:text-3xl md:text-4xl mb-3 md:mb-4">Deshan</h3>
               <a 
@@ -378,7 +421,7 @@ const WeddingSite = () => {
         </div>
         
         <h2 className="font-script text-5xl sm:text-6xl md:text-7xl mb-6 md:mb-8 relative z-10">Thank You</h2>
-        <p className="font-script text-lg sm:text-xl md:text-2xl opacity-70 relative z-10">Deshan & Janisha</p>
+        <p className="font-couple text-lg sm:text-xl md:text-2xl opacity-70 relative z-10">Janisha & Deshan</p>
       </footer>
     </div>
   );
