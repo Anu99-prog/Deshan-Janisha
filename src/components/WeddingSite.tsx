@@ -43,25 +43,11 @@ const WeddingSite = () => {
         </div>
         <div className="absolute inset-0 flex flex-col items-center justify-center px-6 md:px-8 z-10">
           <h1 className="font-couple text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-3 md:mb-5 text-[#2c2c2c] drop-shadow-[0_2px_10px_rgba(255,255,255,0.9)]">
-            Janisha & Deshan
+            Janisha <span className="font-script">&</span> Deshan
           </h1>
           <p className="font-date tracking-[0.3em] sm:tracking-[0.35em] md:tracking-[0.4em] text-xs sm:text-sm md:text-base lg:text-lg uppercase opacity-80 text-[#2c2c2c] drop-shadow-[0_2px_8px_rgba(255,255,255,0.8)] font-light">
             25.06.2026
           </p>
-          <div className="mt-6 md:mt-8 space-y-2 text-center">
-            <p className="font-sans text-[10px] sm:text-xs md:text-sm opacity-70 text-[#2c2c2c] tracking-wide">
-              With love and blessings of their parents
-            </p>
-            <p className="font-sans text-[9px] sm:text-[11px] md:text-xs opacity-60 text-[#2c2c2c]">
-              Mr. Lalith & Mrs. Shiranshi Gamage
-            </p>
-            <p className="font-sans text-[9px] sm:text-[11px] md:text-xs opacity-60 text-[#2c2c2c]">
-              And
-            </p>
-            <p className="font-sans text-[9px] sm:text-[11px] md:text-xs opacity-60 text-[#2c2c2c]">
-              Mr. Ranil & Mrs. Champika Ranatunge
-            </p>
-          </div>
         </div>
       </section>
 
@@ -83,7 +69,21 @@ const WeddingSite = () => {
             <p className="uppercase">We are glad to invite you to our</p>
             <p className="uppercase">wedding on</p>
             <p className="text-xl sm:text-2xl md:text-3xl font-date normal-case tracking-normal">June 25th, 2026</p>
-            <p className="pt-2 md:pt-4 text-lg sm:text-xl md:text-2xl font-couple normal-case tracking-normal">Janisha & Deshan</p>
+            <p className="pt-2 md:pt-4 text-lg sm:text-xl md:text-2xl font-couple normal-case tracking-normal">Janisha <span className="font-script">&</span> Deshan</p>
+            <div className="mt-6 md:mt-8 space-y-2">
+              <p className="font-sans text-[10px] sm:text-xs md:text-sm opacity-70 text-[#2c2c2c] tracking-wide">
+                With love and blessings of their parents
+              </p>
+              <p className="font-sans text-[9px] sm:text-[11px] md:text-xs opacity-60 text-[#2c2c2c]">
+                Mr. Lalith <span className="font-script">&</span> Mrs. Shiranshi Gamage
+              </p>
+              <p className="font-sans text-[9px] sm:text-[11px] md:text-xs opacity-60 text-[#2c2c2c]">
+                And
+              </p>
+              <p className="font-sans text-[9px] sm:text-[11px] md:text-xs opacity-60 text-[#2c2c2c]">
+                Mr. Ranil <span className="font-script">&</span> Mrs. Champika Ranatunge
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -421,7 +421,7 @@ const WeddingSite = () => {
         </div>
         
         <h2 className="font-script text-5xl sm:text-6xl md:text-7xl mb-6 md:mb-8 relative z-10">Thank You</h2>
-        <p className="font-couple text-lg sm:text-xl md:text-2xl opacity-70 relative z-10">Janisha & Deshan</p>
+        <p className="font-couple text-lg sm:text-xl md:text-2xl opacity-70 relative z-10">Janisha <span className="font-script">&</span> Deshan</p>
       </footer>
     </div>
   );
